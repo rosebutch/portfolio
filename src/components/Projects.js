@@ -24,12 +24,12 @@ const Projects = () => {
         <strong>{selectedProject.title} - {selectedProject.subtitle}</strong>
         <br/>
         <a href={selectedProject.repo} >
-          See the code here <span className="icon fa-github"></span>
+        <u>See the code here <span className="icon fa-github"></span></u>
         </a>
         <br/>
-        {selectedProject.link && <a href={selectedProject.link} > See it in action here <span className={"icon fa-" + selectedProject.icon}></span> <br/>
+        {selectedProject.link && <a href={selectedProject.link} > <u>See it in action here <span className={"icon fa-" + selectedProject.icon}></span></u> <br/>
         </a>}
-        {selectedProject.youtube && <a href={selectedProject.youtube} > Watch our demo here <span className={"icon fa-youtube-play"}></span> <br/>
+        {selectedProject.youtube && <a href={selectedProject.youtube} ><u>Watch our demo here <span className={"icon fa-youtube-play"}></span> </u><br/>
         </a>}
         {selectedProject.description}
       </p>

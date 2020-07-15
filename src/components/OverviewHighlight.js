@@ -7,8 +7,8 @@ const OverviewHighlight = props => {
   const slug = topic.toLowerCase()
   return (
     <li>
-      <span className={completeStyles}></span>
       <Link to={`/${slug}`}><h3>{topic}</h3>
+      <span className={completeStyles}></span>
       <p>
         {content}
       </p>
