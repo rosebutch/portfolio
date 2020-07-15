@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
@@ -7,6 +6,7 @@ import Nav from '../components/Nav'
 import Intro from '../components/Intro'
 import Overview from '../components/Overview'
 import Projects from '../components/Projects'
+import Bio from '../components/Bio'
 
 class Index extends React.Component {
   constructor(props) {
@@ -36,8 +36,9 @@ class Index extends React.Component {
 
         <div id="main">
           <Intro />
-          <Overview />
           <Projects />
+          <Bio />
+          <Overview />
         </div>
       </Layout>
     )

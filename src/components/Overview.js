@@ -6,19 +6,19 @@ const Overview = () => {
     {
       topic: "Coding",
       content: "I love writing code in Javascript. Learn more about the other libraries and languages I've used here.",
-      styles: "style5 fa-code"
+      styles: "style1 fa-code"
     }, {
       topic: "Experience",
       content: "I've spent the last few months working as a teaching fellow at Fullstack. See my previous work experience here.",
-      styles: "style3 fa-laptop"
+      styles: "style2 fa-laptop"
     }, {
       topic: "Personal",
       content: "I love being a lesbian. I've found a diverse and thriving LGBT community here in Chicago. See more about me personally here.",
-      styles: "style1 fa-venus-double"
+      styles: "style3 fa-venus-double"
     }
   ]
   return (
-    <section id="first" className="main special">
+    <section id="overview" className="main special">
       <header className="major">
         <h2>Overview</h2>
       </header>

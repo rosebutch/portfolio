@@ -1,4 +1,4 @@
-export const intro = "Hi! I'm Anna. Welcome to my portfolio. I became interested in coding while trying to solve a puzzle in a video game with my software developer girlfriend, who pointed out that it could be solved with an algorithm. After that, I followed my interest through a couple free online courses, which led me to start a Girls Who Code club at the school where I worked. As I was encouraging the students to pursue coding as a career, I found that I was also encouraging myself. I applied to Fullstack Academy’s Grace Hopper Program, where I thrived. I became a teaching fellow to assist and encourage other students, as well as to hone my debugging skills. I’ve always loved solving problems in creative ways, and that’s what I hope to do as a software developer."
+export const intro = "Hi! I'm Anna. Welcome to my portfolio of web development projects. I'm always learning new technologies."
 
 export const projects = {
   kite: {
@@ -8,7 +8,8 @@ export const projects = {
     style: "1",
     description: "Kite Games is a real-time multiplayer party games website built with my friends Ji and Lizzy using React and Firebase. One of the more interesting challenges of this project was building our admin Express server as a single, central source of truth for coordinating many players. The idea was inspired by our transition mid-cohort to social distancing, and the games that we played together during happy hours at Fullstack. We created several games during the course of the project, and I'd like to add more in the future in addition to streamlining our existing codebase.",
     link: "http://www.kite.games/",
-    repo: "https://github.com/AJL-Cap/Kite"
+    repo: "https://github.com/AJL-Cap/Kite",
+    youtube: "https://www.youtube.com/watch?v=ECHcCAnJn0E&feature=youtu.be"
   },
   holeFoods: {
     title: 'Hole Foods',
@@ -52,7 +53,9 @@ export const skills = [["JavaScript", "React (hooks and lifecycle methods)", "Re
 export const softSkills = ["I'm great at helping people feel comfortable and focus the task at hand.",
 "I'm an expert at explaining technical concepts without being overwhelmed by the details. I've also become fantastic at debugging by noticing all the details.", `I love to code as a team, and I live by <a href="https://www.shinetheory.com/">Aminatou Sow and Ann Friedman's Shine Theory</a> of mutual investment and collaboration.`]
 
+export const bio = "I became interested in coding while trying to solve a puzzle in a video game with my software developer girlfriend, who pointed out that it could be solved with an algorithm. After that, I followed my interest through a couple free online courses, which led me to start a Girls Who Code club at the school where I worked. As I was encouraging the students to pursue coding as a career, I found that I was also encouraging myself. I applied to Fullstack Academy’s Grace Hopper Program, where I thrived. I became a teaching fellow to assist and encourage other students, as well as to hone my debugging skills. I’ve always loved solving problems in creative ways, and that’s what I hope to do as a software developer."
+
 const resume = {
-  intro, projects, experience, skills, softSkills
+  intro, projects, experience, skills, softSkills, bio
 }
 export default resume

@@ -4,10 +4,10 @@ const Projects = () => {
 
   const [selectedProject, setSelectedProject] = useState(projects.kite)
   return (
-    <section id="second" className="main special">
+    <section id="projects" className="main special">
       <header className="major">
         <h2>Projects</h2>
-        <p>Click the titles below for more detailed information for each project.</p>
+        <p>Click the titles below for more detailed information.</p>
       </header>
       <ul className="statistics">
       {Object.values(projects).map(project => (
@@ -28,6 +28,8 @@ const Projects = () => {
         </a>
         <br/>
         {selectedProject.link && <a href={selectedProject.link} > See it in action here <span className={"icon fa-" + selectedProject.icon}></span> <br/>
+        </a>}
+        {selectedProject.youtube && <a href={selectedProject.youtube} > Watch our demo here <span className={"icon fa-youtube-play"}></span> <br/>
         </a>}
         {selectedProject.description}
       </p>
