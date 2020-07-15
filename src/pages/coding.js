@@ -10,7 +10,7 @@ class Coding extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Coding Page Title" />
+        <Helmet title="Coding" />
         <HeaderGeneric title="Coding"/>
         <div id="main">
           <section id="content" className="main">

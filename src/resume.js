@@ -48,7 +48,7 @@ export const experience = [
     bullets: ["Cared for a large number of dogs, maintaining their meal and rest schedules and keeping their environment clean and orderly", "Provided highly personalized customer service to the dog parents, from following complex care instructions to the letter, to sending photos and stories of the dog's activities during longer overnight stays"]
   }
 ]
-export const skills = [["JavaScript", "React (hooks and lifecycle methods)", "Redux", "Node.js", "Express", "PostgreSQL", "Sequelize", "Git", "HTML", "CSS", "Firebase Auth", "Firebase Realtime Database"], ["Mocha", "Chai", "Jasmine", "Python", "Bootstrap", "React Native", "NoSQL"],["Heroku", "socket.io", "Ephemeris", "Moment", "Firestore"]]
+export const skills = [["JavaScript", "React (hooks and lifecycle methods)", "Redux", "Node.js", "Express", "PostgreSQL", "Sequelize", "Git", "HTML", "CSS", "Firebase Auth", "Firebase Realtime Database"], ["Mocha", "Chai", "Jasmine", "Python", "Bootstrap", "React Native", "NoSQL", "Gatsby", "Netlify"],["Heroku", "socket.io", "Ephemeris", "Moment", "Firestore"]]
 
 export const softSkills = ["I'm great at helping people feel comfortable and focus the task at hand.",
 "I'm an expert at explaining technical concepts without being overwhelmed by the details. I've also become fantastic at debugging by noticing all the details.", `I love to code as a team, and I live by <a href="https://www.shinetheory.com/">Aminatou Sow and Ann Friedman's Shine Theory</a> of mutual investment and collaboration.`]
