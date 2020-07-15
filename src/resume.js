@@ -53,6 +53,6 @@ export const softSkills = ["I'm great at helping people feel comfortable and foc
 "I'm an expert at explaining technical concepts without being overwhelmed by the details. I've also become fantastic at debugging by noticing all the details.", `I love to code as a team, and I live by <a href="https://www.shinetheory.com/">Aminatou Sow and Ann Friedman's Shine Theory</a> of mutual investment and collaboration.`]
 
 const resume = {
-  intro, projects, experience, skills,
+  intro, projects, experience, skills, softSkills
 }
 export default resume
