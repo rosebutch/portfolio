@@ -14,7 +14,6 @@ class Coding extends React.Component {
         <HeaderGeneric title="Coding"/>
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={codeHeaderImage} alt="" /></span>
             <h2>Libraries, Frameworks, and Languages Ranked by Proficiency</h2>
             <ul className="features">
               {skills.map((skillLevel, index) => <SkillLevel key={5 - index} stars={5 - index} skillArr={skillLevel} />)}
@@ -25,6 +24,7 @@ class Coding extends React.Component {
               <li>I'm an expert at explaining technical concepts without being overwhelmed by the details. I've also become fantastic at debugging by noticing all the details.</li>
               <li>I love to code as a team, and I live by <a href="https://www.shinetheory.com/">Aminatou Sow and Ann Friedman's Shine Theory</a> of mutual investment and collaboration.</li>
             </ul>
+            <span className="image main"><img src={codeHeaderImage} alt="" /></span>
           </section>
         </div>
       </Layout>

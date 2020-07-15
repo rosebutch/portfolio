@@ -9,7 +9,7 @@ class Experience extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Experience Page Title" />
+        <Helmet title="Experience" />
         <HeaderGeneric title="Professional Experience"/>
         <div id="main">
           <section id="content" className="main">
