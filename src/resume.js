@@ -1,4 +1,4 @@
-export const intro = "Hi! I'm Anna. Welcome to my portfolio of web development projects. I'm always learning new technologies."
+export const intro = "Hello, world! I'm Anna. Welcome to my portfolio of web development projects."
 
 export const projects = {
   kite: {
