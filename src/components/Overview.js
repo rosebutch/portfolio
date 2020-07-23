@@ -5,15 +5,15 @@ const Overview = () => {
   const highlights = [
     {
       topic: "Coding",
-      content: "I love writing code in Javascript. Learn more about the other libraries and languages I've used here.",
+      content: "I love writing code in Javascript. Click here to learn more about the other libraries and languages I've used.",
       styles: "style1 fa-code"
     }, {
       topic: "Experience",
-      content: "I've spent the last few months working as a teaching fellow at Fullstack. See my previous work experience here.",
+      content: "I've spent the last few months working as a teaching fellow at Fullstack. Click here to see my previous work experience.",
       styles: "style2 fa-laptop"
     }, {
       topic: "Personal",
-      content: "I love being a lesbian. I've found a diverse and thriving LGBT community here in Chicago. See more about me personally here.",
+      content: "I love being a lesbian. I've found a diverse and thriving LGBT community here in Chicago. Click here to learn more about me personally.",
       styles: "style3 fa-venus-double"
     }
   ]
