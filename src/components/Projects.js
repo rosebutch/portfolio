@@ -31,6 +31,8 @@ const Projects = () => {
         </a>}
         {selectedProject.youtube && <a href={selectedProject.youtube} ><u>Watch our demo here <span className={"icon fa-youtube-play"}></span> </u><br/>
         </a>}
+        {selectedProject.mintbean && <a href={selectedProject.mintbean} ><u>See the hackathon here <span className={"icon fa-comments-o"}></span> </u><br/>
+        </a>}
         {selectedProject.description}
       </p>
     </section>

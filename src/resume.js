@@ -5,7 +5,7 @@ export const projects = {
     title: 'Kite Games',
     subtitle: "Multiplayer Party Games Site",
     icon: "gamepad",
-    style: "1",
+    style: "3",
     description: "Kite Games is a real-time multiplayer party games website built with my friends Ji and Lizzy using React and Firebase. One of the more interesting challenges of this project was building our admin Express server as a single, central source of truth for coordinating many players. The idea was inspired by our transition mid-cohort to social distancing, and the games that we played together during happy hours at Fullstack. We created several games during the course of the project, and I'd like to add more in the future in addition to streamlining our existing codebase.",
     link: "http://www.kite.games/",
     repo: "https://github.com/AJL-Cap/Kite",
@@ -28,6 +28,16 @@ export const projects = {
     description: "Sailor is my solo hackathon project that I built with my friends in mind as users. It's a Sailor Moon-themed astrology calendar app built with React Native and ephemeris data. It displays relevant information about planetary movement marked on a calendar (for example Mercury retrograde marked in Sailor Mercury blue), and also generates small daily horoscopes. I'd like to integrate Firebase in the future to create a more personalized and customizable user experience.",
     repo: "https://github.com/rosebutch/sailor"
   },
+  mysticMirror: {
+    title: 'Mystic Mirror',
+    subtitle: "Virtual Mood Ring",
+    icon: "user-circle",
+    style: "4",
+    description: "I started working on this project for the Mintbean Hackernoon Hackathon. The prompt was to create a virtual mirror, and I knew right away I wanted to try to make a very basic version of a Snapchat or Instagram filter. I used a TensorFlow based machine learning library called face-api.js to track the location of the user's face and read their emotions, and React Webcam to provide the video source. This was a fun, short introduction to machine learning and review of React and CSS concepts. I hope you enjoy using it as much as I did making it!",
+    link: "https://mystic-mirror.netlify.app/",
+    repo: "https://github.com/rosebutch/mystic-mirror-hackathon",
+    mintbean: "https://mintbean.io/project/6e1e544b-3dae-4d56-84d0-f2d380718deb"
+  }
 }
 
 export const experience = [
