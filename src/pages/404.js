@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import barbie from '../assets/images/website-icon.png'
+import barbie from '../assets/images/404.png'
 
 const NotFoundPage = () => (
   <Layout>
