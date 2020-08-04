@@ -32,7 +32,7 @@ export const projects = {
     title: 'Mystic Mirror',
     subtitle: "Virtual Mood Ring",
     icon: "user-circle",
-    style: "4",
+    style: "2",
     description: "I started working on this project for the Mintbean Hackernoon Hackathon. The prompt was to create a virtual mirror, and I knew right away I wanted to try to make a very basic version of a Snapchat or Instagram filter. I used a TensorFlow based machine learning library called face-api.js to track the location of the user's face and read their emotions, and React Webcam to provide the video source. This was a fun, short introduction to machine learning and review of React and CSS concepts. I hope you enjoy using it as much as I did making it!",
     link: "https://mystic-mirror.netlify.app/",
     repo: "https://github.com/rosebutch/mystic-mirror-hackathon",

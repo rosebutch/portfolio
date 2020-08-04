@@ -10,15 +10,18 @@ const Projects = () => {
         <p>Click the titles below for more detailed information.</p>
       </header>
       <ul className="statistics">
-      {Object.values(projects).map(project => (
-        <li className={"style" + project.style} key={project.title}>
+      {Object.values(projects).map(project => {
+        let style = project.style
+        if (project === selectedProject) style = 1
+        return (
+        <li className={"style" + style} key={project.title}>
           <div onClick={() => setSelectedProject(project)}>
             <span className={"icon fa-" + project.icon}></span>
             <strong>{project.title}</strong> {project.subtitle}
           </div>
 
         </li>
-      ))}
+      )})}
       </ul>
       <p className="content">
         <strong>{selectedProject.title} - {selectedProject.subtitle}</strong>
