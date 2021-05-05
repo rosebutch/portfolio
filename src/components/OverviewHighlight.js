@@ -8,7 +8,7 @@ const OverviewHighlight = props => {
   return (
     <li>
       <Link to={`/${slug}`}><h3>{topic}</h3>
-      <span className={completeStyles}></span>
+      <span className={completeStyles} style={{cursor: 'pointer'}}></span>
       <p>
         {content}
       </p>

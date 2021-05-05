@@ -21,7 +21,7 @@ class Coding extends React.Component {
             <h2>Soft Coding Skills</h2>
             <ul>
               <li>I'm great at helping people feel comfortable and focus the task at hand.</li>
-              <li>I'm an expert at explaining technical concepts without being overwhelmed by the details. I've also become fantastic at debugging by noticing all the details.</li>
+              <li>I'm an expert at explaining technical concepts without overwhelming with the details. I also have developed good debugging instincts to dig through the details more effectively.</li>
               <li>I love to code as a team, and I live by <a href="https://www.shinetheory.com/">Aminatou Sow and Ann Friedman's Shine Theory</a> of mutual investment and collaboration.</li>
             </ul>
             <span className="image main"><img src={codeHeaderImage} alt="" /></span>
