@@ -1,4 +1,4 @@
-export const intro = "Hello, world! I'm Anna. Welcome to my portfolio of web development projects."
+export const intro = "Hello, world! I'm Anna. Welcome to my portfolio of coding projects."
 
 export const projects = {
   kite: {
@@ -33,7 +33,7 @@ export const projects = {
     subtitle: "Virtual Mood Ring",
     icon: "user-circle",
     style: "2",
-    description: "I started working on this project for the Mintbean Hackernoon Hackathon. The prompt was to create a virtual mirror, and I knew right away I wanted to try to make a very basic version of a Snapchat or Instagram filter. I used a TensorFlow based machine learning library called face-api.js to track the location of the user's face and read their emotions, and React Webcam to provide the video source. This was a fun, short introduction to machine learning and review of React and CSS concepts. I hope you enjoy using it as much as I did making it!",
+    description: "I started working on this project for the Mintbean Hackernoon Hackathon. The prompt was to create a virtual mirror, and I knew right away I wanted to try to make a very basic version of a Snapchat or Instagram filter. I used a TensorFlow based machine learning library called face-api.js to track the location of the user's face and read their emotions, and React Webcam to provide the video source. This was a fun, short introduction to machine learning and review of React and CSS concepts.",
     link: "https://mystic-mirror.netlify.app/",
     repo: "https://github.com/rosebutch/mystic-mirror-hackathon",
     mintbean: "https://mintbean.io/project/6e1e544b-3dae-4d56-84d0-f2d380718deb"
@@ -42,7 +42,10 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Teaching Fellow at Fullstack Academy",
+    title: "Software Engineer",
+    bullets: ["Hit the ground running in a new language and framework, making meaningful code contributions to the flagship product after just one week of learning and orientation.", "Developed a new dashboard using object oriented principles, collaborating with other software engineers, and communicating cross-functionally to demonstrate the value of the product to customers.", "Wrote pixel-perfect SCSS using BEM nomenclature to increase code readability.", "Led weekly problem solving and algorithm practice as a fun activity for engineers and non-engineers alike."]
+  }, {
+    title: "Teaching Fellow",
     bullets: ["Managed 14 student projects, guiding architectural decisions and providing feedback in office hours and daily stand-up meetings", "Led 12 weekly workshops covering algorithms, data structures, system design, and other computer science topics", "Clarified coding concepts and extensively debugged student code in over a hundred help tickets"]
   }, {
     title: "School Technology Assistant",
@@ -58,12 +61,12 @@ export const experience = [
     bullets: ["Cared for a large number of dogs, maintaining their meal and rest schedules and keeping their environment clean and orderly", "Provided highly personalized customer service to the dog parents, from following complex care instructions to the letter, to sending photos and stories of the dog's activities during longer overnight stays"]
   }
 ]
-export const skills = [["JavaScript", "React (hooks and lifecycle methods)", "Redux", "Node.js", "Express", "PostgreSQL", "Sequelize", "Git", "HTML", "CSS", "Firebase Auth", "Firebase Realtime Database"], ["Mocha", "Chai", "Jasmine", "Python", "Bootstrap", "React Native", "NoSQL", "Gatsby", "Netlify"],["Heroku", "socket.io", "Ephemeris", "Moment", "Firestore"]]
+export const skills = [["JavaScript", "React (hooks and lifecycle methods)", "Redux", "Node.js", "Express", "PostgreSQL", "Sequelize", "Git", "HTML", "CSS", "Firebase Auth", "Firebase Realtime Database", "Ruby", "Ruby on Rails", "rspec", "Slim"], ["Mocha", "Chai", "Jasmine", "Python", "Bootstrap", "React Native", "NoSQL", "Gatsby", "Netlify", "jQuery"],["Heroku", "socket.io", "Ephemeris", "Moment", "Firestore", "TensorFlow"]]
 
 export const softSkills = ["I'm great at helping people feel comfortable and focus the task at hand.",
 "I'm an expert at explaining technical concepts without being overwhelmed by the details. I've also become fantastic at debugging by noticing all the details.", `I love to code as a team, and I live by <a href="https://www.shinetheory.com/">Aminatou Sow and Ann Friedman's Shine Theory</a> of mutual investment and collaboration.`]
 
-export const bio = "I became interested in coding while trying to solve a puzzle in a video game with my software developer girlfriend, who pointed out that it could be solved with an algorithm. After that, I followed my interest through a couple free online courses, which led me to start a Girls Who Code club at the school where I worked. As I was encouraging the students to pursue coding as a career, I found that I was also encouraging myself. I applied to Fullstack Academy’s Grace Hopper Program, where I thrived. I became a teaching fellow to assist and encourage other students, as well as to hone my debugging skills. I’ve always loved solving problems in creative ways, and that’s what I hope to do as a software developer."
+export const bio = "I became interested in coding while trying to solve a puzzle in a video game with my software developer girlfriend, who pointed out that it could be solved with an algorithm. After that, I followed my interest through a couple free online courses, which led me to start a Girls Who Code club at the school where I worked. As I was encouraging the students to pursue coding as a career, I found that I was also encouraging myself. I’ve always loved solving problems in creative ways, and that’s what I continue to do as a software developer."
 
 const resume = {
   intro, projects, experience, skills, softSkills, bio

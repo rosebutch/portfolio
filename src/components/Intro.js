@@ -8,7 +8,7 @@ const Intro = () => {
       <div className="spotlight">
         <div className="content">
           <header className="major">
-            <h2>Full Stack Developer in Chicago</h2>
+            <h2>Full Stack Developer</h2>
           </header>
           <p>{intro}</p>
         </div>

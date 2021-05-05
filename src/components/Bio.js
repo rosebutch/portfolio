@@ -7,7 +7,7 @@ const Extra = () => {
       <header className="major">
         <h2>How I Got Here</h2>
       </header>
-      <p className="content">{bio}</p>
+      <p style={{textAlign: 'justify'}}>{bio}</p>
     </section>
   )
 }

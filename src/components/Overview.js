@@ -9,11 +9,11 @@ const Overview = () => {
       styles: "style1 fa-code"
     }, {
       topic: "Experience",
-      content: "I've spent the last few months working as a teaching fellow at Fullstack. Click here to see my previous work experience.",
+      content: "I've been working in tech for over 2 years. Click here to see my previous work experience.",
       styles: "style2 fa-laptop"
     }, {
       topic: "Personal",
-      content: "I love being a lesbian. I've found a diverse and thriving LGBT community here in Chicago. Click here to learn more about me personally.",
+      content: "I love being a lesbian. Click here to learn more about me personally.",
       styles: "style3 fa-venus-double"
     }
   ]
